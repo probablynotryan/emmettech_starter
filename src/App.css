@@ -1,23 +1,28 @@
-.header {
-  background-color: black;
-  margin: 0;
-  height: 20px;;
-  border: 1px black solid;
-  border-bottom: 1 white solid;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 .logostrip {
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
+  height: 60px;
+  margin: 0 auto 0;
+  padding-bottom: 0;
   display: block;
   background-color: black;
 }
 
 .center-text{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  display: block;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.menu {
+  position: relative;
+  top: -15px;
+  height: 30px;
+  background-color: #101010;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
 }
